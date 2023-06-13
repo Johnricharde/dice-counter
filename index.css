@@ -1,13 +1,20 @@
+html { 
+    background: url("green-background.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
 #full-page {
     margin: 25px auto auto auto;
     max-width: 200px;
 }
 
 body {
+    height: 350px;
     color: #f8f9fa;
     text-shadow: 0px 0px 5px black;
-    background-image: url("green-background.jpg");
-    height: 350px;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     text-align: center;
