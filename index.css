@@ -39,6 +39,10 @@ h2 {
     flex-flow: wrap;
 }
 
+#buttons:hover {
+    border: 3px solid #ffffff;
+}
+
 button {
     border: none;
     padding: 10px 10px;
