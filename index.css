@@ -39,10 +39,6 @@ h2 {
     flex-flow: wrap;
 }
 
-#buttons:hover {
-    border: 3px solid #ffffff;
-}
-
 button {
     border: none;
     padding: 10px 10px;
@@ -60,10 +56,20 @@ button {
     border-radius: 20px 20px 5px 5px;
 }
 
+#increment-btn:hover {
+    border: 3px solid #f8f9fa;
+    padding: 7px;
+}
+
 #save-btn {
     width: 90px;
     background: #00573e;
     border-radius: 5px 5px 5px 20px;
+}
+
+#save-btn:hover {
+    border: 3px solid #f8f9fa;
+    padding: 7px;
 }
 
 #clear-btn {
@@ -72,3 +78,7 @@ button {
     border-radius: 5px 5px 20px 5px;
 }
 
+#clear-btn:hover {
+    border: 3px solid #f8f9fa;
+    padding: 7px;
+}
