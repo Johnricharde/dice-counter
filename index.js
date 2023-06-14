@@ -15,7 +15,7 @@ function save() {
 }
 
 function clearSaveData() {
-    saveEl.textContent = "Dice Rolls: "
+    saveEl.textContent = ""
     countEl.textContent = "0"
     count = 0
 }
